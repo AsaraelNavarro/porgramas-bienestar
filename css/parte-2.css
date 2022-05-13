@@ -1,0 +1,500 @@
+/*-------------------\
+    COLORES
+\********************/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html body {
+  margin-bottom: 19rem;
+}
+
+.btn {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.link-ban {
+  color: #9D2449;
+}
+
+.header-nav {
+  background-color: #FFFFFF !important;
+  border-bottom: 1px solid #DEDEDE;
+  -webkit-box-shadow: 0 1px 2px #DEDEDE;
+          box-shadow: 0 1px 2px #DEDEDE;
+  position: relative;
+  z-index: 10;
+}
+
+.header-nav .navbar-brand {
+  color: #9D2449;
+}
+
+.header-nav .navbar-collapse .navbar-nav .nav-item {
+  position: relative;
+  padding: 0 1rem;
+}
+
+.header-nav .navbar-collapse .navbar-nav .nav-item .separador {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  opacity: 0.3;
+}
+
+.header-nav .navbar-collapse .navbar-nav .nav-item.active .nav-link {
+  color: #B38E5D !important;
+  border-bottom: 1px solid #B38E5D;
+}
+
+.header-nav .navbar-collapse .navbar-nav .nav-item.registro .nav-link {
+  color: #9D2449;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: #FFFFFF;
+  border-top: 1px solid #D4C19C;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer .foot-sec-1 {
+  background-color: #D4C19C;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer .foot-sec-1 .foot-path-1 {
+  position: absolute;
+  top: -31rem;
+  left: -72rem;
+}
+
+.footer .foot-sec-1 .foot-path-2 {
+  position: absolute;
+  top: -18rem;
+  right: -17rem;
+}
+
+.footer .foot-sec-2 {
+  padding: 1rem 0;
+}
+
+.back-fam {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.back-fam > div {
+  position: absolute;
+}
+
+.back-fam .div-fam-1 {
+  top: 7rem;
+  left: -2rem;
+}
+
+.back-fam .div-fam-2 {
+  top: 7rem;
+  left: 11rem;
+}
+
+.back-fam .div-fam-3 {
+  top: 35rem;
+  left: -1rem;
+}
+
+.back-fam .div-fam-4 {
+  top: 45rem;
+  width: 100%;
+  text-align: center;
+}
+
+.back-fam .div-fam-5 {
+  top: 42rem;
+  right: 0;
+}
+
+.back-fam .div-fam-6 {
+  top: 106rem;
+  left: 38rem;
+}
+
+.back-fam .div-fam-7 {
+  top: 107rem;
+  left: 12rem;
+}
+
+.back-fam .div-fam-8 {
+  top: 134rem;
+  right: 34rem;
+}
+
+.back-fam .div-fam-16 {
+  top: 11rem;
+  left: 16rem;
+}
+
+.back-fam .div-fam-17 {
+  top: 36rem;
+  right: 20rem;
+}
+
+.back-fam .div-fam-18 {
+  top: 42rem;
+  left: -3rem;
+}
+
+.back-fam .div-fam-19 {
+  top: 79rem;
+  right: 12rem;
+}
+
+.back-fam .div-fam-20 {
+  top: 88rem;
+  width: 100%;
+  text-align: center;
+}
+
+.back-fam .div-fam-21 {
+  top: 122rem;
+  left: -2rem;
+}
+
+.back-fam .div-fam-22 {
+  top: 142rem;
+  width: 100%;
+  text-align: center;
+}
+
+.back-path {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+.back-path > div {
+  position: absolute;
+}
+
+.back-path .div-path-1 {
+  top: 14rem;
+  left: -26rem;
+}
+
+.back-path .div-path-2 {
+  top: 49rem;
+  left: -21rem;
+}
+
+.back-path .div-path-3 {
+  top: 54rem;
+  right: -41rem;
+}
+
+.back-path .div-path-4 {
+  top: 84rem;
+  left: -31rem;
+}
+
+.back-path .div-path-5 {
+  top: 108rem;
+  left: -55rem;
+}
+
+.back-path .div-path-6 {
+  top: 118rem;
+  right: -22rem;
+}
+
+.back-path .div-path-12 {
+  top: 14rem;
+  left: -52rem;
+}
+
+.back-path .div-path-13 {
+  top: 34rem;
+  right: -32rem;
+}
+
+.back-path .div-path-14 {
+  top: 52rem;
+  left: -40rem;
+}
+
+.back-path .div-path-15 {
+  top: 109rem;
+  left: -16rem;
+}
+
+.back-path .div-path-16 {
+  top: 102rem;
+  right: -40rem;
+}
+
+.back-path .div-path-17 {
+  top: 148rem;
+  left: -22rem;
+}
+
+#sec-1 {
+  padding: 4rem 0 16rem;
+}
+
+#sec-2 {
+  padding: 0 0 21rem;
+}
+
+#sec-3 {
+  padding: 0;
+}
+
+#sec-4 {
+  padding: 6rem 0 10rem;
+}
+
+#sec-4 .btn-block {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#sec-4 .cont-icon {
+  height: 160px;
+}
+
+#sec-5 {
+  padding: 0 0 14rem;
+}
+
+#sec-5 .cont-icon {
+  margin-bottom: 1rem;
+}
+
+#jov-sec-1 {
+  padding: 2rem 0;
+}
+
+#jov-sec-2 {
+  padding: 5rem 0 10rem;
+}
+
+#jov-sec-3 {
+  padding: 14rem 0 12rem;
+}
+
+#jov-sec-4 {
+  padding: 5rem 0 14rem;
+}
+
+#jov-sec-5 {
+  padding: 0 0 12rem;
+}
+
+#jov-sec-6 {
+  padding: 10rem 0 30rem;
+}
+
+#jov-sec-6 .border-hr {
+  position: relative;
+  padding-left: 2rem;
+}
+
+#jov-sec-6 hr {
+  border-color: #B38E5D;
+  border-width: 5px;
+  margin-top: 2rem;
+  /*position: absolute;
+        bottom:0;*/
+}
+
+#jov-sec-6 .border-cafe {
+  border-bottom: 5px solid #D4C19C;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+}
+
+#sec-video {
+  background-color: #000000;
+  height: 34rem;
+  margin-bottom: 4rem;
+}
+
+#sec-ayu-1 {
+  padding: 0 0 2rem;
+}
+
+#sec-ayu-2 {
+  padding: 0 0 2rem;
+}
+
+#accordion-preguntas .card {
+  background-color: #FFFFFF;
+  border-width: 0 0 1px 0;
+}
+
+#accordion-preguntas .card .card-header {
+  background-color: transparent;
+}
+
+#accordion-preguntas .card .card-header h5 button {
+  width: 100%;
+  text-align: left;
+  color: #9D2449;
+  position: relative;
+  white-space: unset;
+}
+
+#accordion-preguntas .card .card-header h5 button svg {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+
+#accordion-preguntas .card .card-header h5 button[aria-expanded="true"] svg {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#accordion-preguntas .card .card-body {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#accordion-preguntas .card .card-body .title-res {
+  color: #9D2449;
+}
+
+#accordion-preguntas .card .card-body a {
+  color: #9D2449;
+}
+
+#accordion-preguntas .h3 {
+  margin-top: 1.6rem;
+}
+
+/*---------------------------\
+    IMAGENES JOVENES
+\****************************/
+.row-jovenes {
+  background: url("../img/jovenes/path12.svg") no-repeat -761px 220px;
+}
+
+.row-capacitacion {
+  background: url("../img/jovenes/path13.svg") no-repeat 1261px -71px, url("../img/jovenes/path14.svg") no-repeat -361px 71px;
+}
+
+.row-uni {
+  background: url("../img/jovenes/path16.svg") no-repeat 1266px 396px, url("../img/jovenes/path15.svg") no-repeat -198px 430px;
+}
+
+.row-uni2 {
+  background: url("../img/jovenes/path17.svg") no-repeat -366px 450px;
+}
+
+.row-uni2 .m-neg {
+  margin-top: -11em;
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 0.7rem;
+  }
+  body {
+    margin-bottom: 3.3rem !important;
+  }
+  br {
+    display: none;
+  }
+  .row-jovenes {
+    background-position: -28rem 36rem !important;
+    background-size: 59rem;
+  }
+  .row-jovenes #jov-sec-2 {
+    padding: 2rem 0 0;
+  }
+  .row-jovenes #jov-sec-2 .img-jov-res {
+    margin-top: 2rem;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+  .row-jovenes #jov-sec-2 .img-jov-res img {
+    height: 50% !important;
+  }
+  .row-capacitacion {
+    padding-bottom: 8rem;
+    background: url("../img/jovenes/path14.svg") no-repeat -160px -28px !important;
+    background-size: 28rem !important;
+  }
+  .row-capacitacion .bloque-texto .t-xl {
+    font-size: 2.4rem;
+  }
+  .row-capacitacion .bloque-texto .h4 {
+    font-size: 1.2rem;
+  }
+  .row-capacitacion .img-cr img {
+    height: 156% !important;
+    position: absolute;
+    top: -6rem;
+  }
+  .row-uni {
+    padding-bottom: 12rem !important;
+    background: url("../img/jovenes/path15.svg") no-repeat 6rem 15rem !important;
+    background-size: 38rem !important;
+  }
+  .row-uni .bloque-texto .t-xl {
+    font-size: 2.4rem;
+  }
+  .row-uni .bloque-texto .h4 {
+    font-size: 1.2rem;
+  }
+  .row-uni .img-uni-res img {
+    position: absolute;
+    top: -8rem;
+    right: 1rem;
+    height: 240% !important;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -webkit-filter: FlipH;
+            filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+  .row-uni2 {
+    text-align: center;
+  }
+  .row-uni2 hr {
+    display: none;
+  }
+  footer .img-res {
+    width: 100%;
+  }
+  footer .foot-path-1 {
+    top: -46rem !important;
+    left: -117rem !important;
+  }
+  footer .foot-path-2 {
+    top: -25rem !important;
+    right: -30rem !important;
+  }
+}
+/*# sourceMappingURL=parte-2.css.map */

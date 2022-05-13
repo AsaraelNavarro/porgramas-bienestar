@@ -1,0 +1,1056 @@
+/*-------------------\
+    COLORES
+\********************/
+/*-------------------\
+    GENERALES
+\********************/
+body {
+  color: #333333 !important;
+  overflow-x: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f8f5ef));
+  background: linear-gradient(to bottom, white 0%, #f8f5ef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f5ef', GradientType=0 );
+  padding-bottom: 40px;
+}
+
+.row {
+  letter-spacing: 1px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+a {
+  color: #9d2449;
+}
+
+a:hover, a:focus, a:active, a:visited {
+  color: #b92a56;
+}
+
+b {
+  font-weight: 600;
+}
+
+.hr-cafe {
+  border-top: 3px solid #d4c19c;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+
+.nav-link {
+  border-bottom: 1px solid transparent;
+  padding-right: 5px;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+  color: #b38e5d !important;
+  border-bottom: 1px solid #b38e5d;
+}
+
+.flex-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+
+.btn {
+  white-space: unset;
+}
+
+.img-cl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.img-cr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card-header {
+  padding: 0.75rem 0.25rem !important;
+}
+
+.card-header .btn {
+  padding: 0.375rem 1.5rem 0.375rem 0.5rem;
+}
+
+/*-------------------\
+    TITULOS
+\********************/
+.t-cafe {
+  color: #b38e5d;
+  font-weight: 300 !important;
+}
+
+.t-negro {
+  color: #000000;
+  font-weight: 300 !important;
+}
+
+.t-banco {
+  color: #9d2449;
+  font-weight: 300 !important;
+}
+
+.t-xl {
+  font-size: 4rem;
+}
+
+.bg-cafe {
+  background: #b38e5d;
+}
+
+/*-------------------\
+    BOTONES
+\********************/
+.btn-lineb {
+  text-align: center;
+  color: #9d2449;
+  background-color: #ffffff;
+  border: 1px solid #9d2449;
+  border-radius: 50px;
+  padding: 10px 5px;
+  max-width: 250px;
+}
+
+.btn-lineb:hover {
+  background-color: #b92a56;
+  color: #ffffff;
+}
+
+.btn-lineApp {
+  text-align: center;
+  color: #707070;
+  background-color: transparent;
+  border: 1px solid #9d2449;
+  padding: 15px 5px;
+  text-transform: uppercase;
+}
+
+.btn-lineApp:hover {
+  background-color: #b92a56;
+  color: #ffffff;
+}
+
+.btn-banco {
+  text-align: center;
+  color: #ffffff;
+  background-color: #9d2449;
+  border: 1px solid #9d2449;
+  border-radius: 50px;
+  padding: 15px 5px;
+  text-transform: uppercase;
+}
+
+.btn-banco:hover, .btn-banco:active, .btn-banco:focus {
+  background-color: #b92a56;
+}
+
+.btn-cafe {
+  text-align: center;
+  color: #ffffff !important;
+  background-color: #b38e5d;
+  border: 1px solid #b38e5d;
+  border-radius: 50px;
+  padding: 15px 25px;
+}
+
+.btn-cafe:hover, .btn-cafe:active, .btn-cafe:focus {
+  background-color: #a27d4c;
+}
+
+/*---------------------------\
+    Custom ordered list
+\****************************/
+.list-group-bene ol {
+  counter-reset: li;
+  /* Initiate a counter */
+  margin-left: 0;
+  /* Remove the default left margin */
+  padding-left: 0;
+  /* Remove the default left padding */
+}
+
+.list-group-bene ol > li {
+  position: relative;
+  /* Create a positioning context */
+  margin: 0 0 6px 2em;
+  /* Give each list item a left margin to make room for the numbers */
+  padding: 4px 8px;
+  /* Add some spacing around the content */
+  list-style: none;
+  /* Disable the normal item numbering */
+}
+
+.list-group-bene ol > li:before {
+  content: counter(li);
+  /* Use the counter as content */
+  counter-increment: li;
+  /* Increment the counter by 1 */
+  /* Position and style the number */
+  position: absolute;
+  top: -6px;
+  left: -2em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 2em;
+  /* Some space between the number and the content in browsers that support
+generated content but not positioning it */
+  margin-right: 8px;
+  padding: 4px;
+  color: #b38e5d;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+}
+
+/*---------------------------\
+    IMAGENES ADULTOS MAYORES
+\****************************/
+.fam-svg {
+  height: 90%;
+}
+
+.row-personas {
+  background: url("../img/adultos-mayores/path7.svg") no-repeat 500px 130px;
+}
+
+.row-pensiones .card {
+  max-height: 400px;
+  background: url("../img/jovenes/path12.svg") no-repeat -180px 240px, #ffffff;
+}
+
+.row-pensiones2 {
+  margin-top: -25%;
+  background: url("../img/adultos-mayores/path9.svg") no-repeat 1256px -152px;
+}
+
+.row-comunidades {
+  background: url("../img/adultos-mayores/path10.svg") no-repeat 950px 0px;
+}
+
+.row-banco {
+  background: url("../img/adultos-mayores/path11.svg") no-repeat -195px 181px;
+}
+
+/*---------------------------\
+    IMAGENES DISCAPACITADOS
+\****************************/
+.row-ninos .card {
+  max-height: 400px;
+  background: url("../img/jovenes/path12.svg") no-repeat -280px 150px, #ffffff;
+}
+
+.row-atencion {
+  background: url("../img/discapacitados/path20.svg") no-repeat 1300px 220px, url("../img/discapacitados/path18.svg") no-repeat -1000px -471px;
+}
+
+.row-prioridad {
+  background: url("../img/discapacitados/path21.svg") no-repeat 983px -256px;
+}
+
+/*---------------------------\
+    IMAGENES JOVENES
+\****************************/
+.row-jovenes {
+  background: url("../img/jovenes/path12.svg") no-repeat -761px 220px;
+}
+
+.row-capacitacion {
+  background: url("../img/jovenes/path13.svg") no-repeat 1261px -71px, url("../img/jovenes/path14.svg") no-repeat -361px 71px;
+}
+
+.row-uni {
+  background: url("../img/jovenes/path16.svg") no-repeat 1266px 396px, url("../img/jovenes/path15.svg") no-repeat -198px 430px;
+}
+
+.row-uni2 {
+  background: url("../img/jovenes/path17.svg") no-repeat -366px 450px;
+}
+
+.row-uni2 .m-neg {
+  margin-top: -11em;
+}
+
+/*---------------------------\
+    IMAGENES HOME
+\****************************/
+.row-programas {
+  background: url("../img/home/path1.svg") no-repeat -400px 200px;
+}
+
+.row-proyectos {
+  background: url("../img/home/path1.svg") no-repeat -200px 100px;
+}
+
+.row-derechos {
+  background: url("../img/home/path3.svg") no-repeat 1300px 180px;
+}
+
+.row-documentos {
+  background: url("../img/home/path4.svg") no-repeat -378px -123px, url("../img/home/path5.svg") no-repeat -651px 250px, url("../img/home/path6.svg") no-repeat 850px 468px;
+}
+
+@media (max-width: 1440px) {
+  /*---------------------------\
+    IMAGENES DISCAPACITADOS
+\****************************/
+  .row-ninos {
+    background-position: -361px -350px;
+  }
+  .row-atencion {
+    background-position: 950px 200px, -1100px -470px;
+  }
+  .row-prioridad {
+    background-position: 700px -256px;
+  }
+  /*---------------------------\
+    IMAGENES ADULTOS MAYORES
+\****************************/
+  .row-personas {
+    background-position: 200px 145px;
+  }
+  .row-pensiones {
+    background-position: -1100px -152px;
+  }
+  .row-pensiones2 {
+    background-position: 800px -152px;
+  }
+  .row-comunidades {
+    background-position: 650px -120px;
+  }
+  .row-banco {
+    background-position: -395px 10px;
+  }
+  /*---------------------------\
+    IMAGENES HOME
+\****************************/
+  .row-programas {
+    background-position: -500px 100px;
+  }
+  .row-proyectos {
+    background-position: -200px 120px;
+  }
+  .row-derechos {
+    background-position: 390px 90px;
+  }
+  .row-documentos {
+    background: url("../img/home/path4.svg") no-repeat -678px -123px, url("../img/home/path5.svg") no-repeat -851px 240px, url("../img/home/path6.svg") no-repeat 481px 450px;
+  }
+  /*---------------------------\
+    IMAGENES JOVENES
+\****************************/
+  .row-jovenes {
+    background-position: -961px 200px;
+  }
+  .row-capacitacion {
+    background: url("../img/jovenes/path13.svg") no-repeat 1061px -21px, url("../img/jovenes/path14.svg") no-repeat -600px 31px;
+  }
+  .row-uni {
+    background: url("../img/jovenes/path16.svg") no-repeat 1000px 396px, url("../img/jovenes/path15.svg") no-repeat -350px 430px;
+  }
+  .row-uni2 {
+    background-position: -366px 450px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /*---------------------------\
+    IMAGENES DISCAPACITADOS
+\****************************/
+  .row-atencion {
+    background-position: 750px 220px, -1200px -470px;
+  }
+  .row-prioridad {
+    background-position: 400px -256px;
+  }
+  /*---------------------------\
+    IMAGENES ADULTOS MAYORES
+\****************************/
+  .row-personas {
+    background-position: 100px 135px;
+  }
+  .row-pensiones2 {
+    background-position: 756px -152px;
+  }
+  .row-comunidades {
+    background-position: 614px -100px;
+  }
+  .row-banco {
+    background-position: -595px 50px;
+  }
+  /*---------------------------\
+    IMAGENES HOME
+\****************************/
+  .row-programas {
+    background-position: -650px 20px;
+  }
+  .row-proyectos {
+    background-position: -390px 120px;
+  }
+  .row-derechos {
+    background-position: 300px 90px;
+  }
+  .row-documentos {
+    background-position: -778px -123px, -951px 240px, 481px 480px;
+  }
+}
+
+@media (max-width: 991px) {
+  .row-registro {
+    margin-bottom: 26em;
+  }
+  .row-personas {
+    background-position: 126px 130px;
+  }
+  .row-pensiones2 {
+    background-position: 700px -152px;
+  }
+  .row-comunidades {
+    background-position: 614px -110px;
+  }
+  .row-banco {
+    background-position: -495px -20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-cl {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .img-cr {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row-pensiones2 {
+    margin-top: 0;
+  }
+  .bloque-texto {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+  .row-uni2 .m-neg {
+    margin-top: 2em;
+  }
+  /*---------------------------\
+    IMAGENES DISCAPACITADOS
+\****************************/
+  .row-ninos {
+    background-position: -700px -300px;
+  }
+  .row-atencion {
+    background-position: 500px 230px, -1200px -530px;
+  }
+  .row-prioridad {
+    background-position: 200px -86px;
+  }
+  /*---------------------------\
+    IMAGENES ADULTOS MAYORES
+\****************************/
+  .row-personas {
+    background-position: 80px 380px;
+  }
+  .row-comunidades {
+    background-position: 100px 400px;
+  }
+  .row-banco {
+    background-position: -300px 220px;
+  }
+  /*---------------------------\
+    IMAGENES HOME
+\****************************/
+  .row-programas {
+    background-position: -650px 80px;
+  }
+  .row-proyectos {
+    background-position: -200px 130px;
+  }
+  .row-derechos {
+    background-position: 200px 80px;
+  }
+  .row-documentos {
+    background-position: -878px -123px, -951px 250px, 421px 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /*---------------------------\
+    IMAGENES DISCAPACITADOS
+\****************************/
+  .row-atencion {
+    background-position: -1220px -530px;
+  }
+  .row-prioridad {
+    background-position: 83px -100px;
+  }
+  /*---------------------------\
+    IMAGENES JOVENES
+\****************************/
+  .row-jovenes {
+    background-position: -761px 220px;
+  }
+  .row-capacitacion {
+    background-position: 61px 811px, -361px 31px;
+  }
+  .row-uni {
+    background-position: 66px 1067px, -198px 600px;
+  }
+  .row-uni2 {
+    background-position: -366px 450px;
+  }
+  /*---------------------------\
+    IMAGENES ADULTOS MAYORES
+\****************************/
+  .row-personas {
+    background-position: 50px 130px;
+  }
+  .row-personas .img-cl {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .row-personas .fam-svg {
+    width: 75%;
+    margin-top: -50px;
+  }
+  .row-pensiones {
+    background-position: -1380px -196px;
+  }
+  .row-pensiones2 {
+    background-position: 20px 100px;
+  }
+  .row-banco {
+    background-position: -650px 30px;
+  }
+  /*---------------------------\
+    IMAGENES HOME
+\****************************/
+  .row-programas {
+    background-position: -700px 50px;
+  }
+  .row-proyectos {
+    background-position: -200px 150px;
+  }
+  .row-derechos {
+    background-position: 10px 60px;
+  }
+  .row-documentos {
+    background-position: -378px -123px, -651px 250px, 82px 1226px;
+  }
+}
+
+/*-------------------\
+    COLORES
+\********************/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html body {
+  margin-bottom: 19rem;
+}
+
+.btn {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.link-ban {
+  color: #9D2449;
+}
+
+.header-nav {
+  background-color: #FFFFFF !important;
+  border-bottom: 1px solid #DEDEDE;
+  -webkit-box-shadow: 0 1px 2px #DEDEDE;
+          box-shadow: 0 1px 2px #DEDEDE;
+  position: relative;
+  z-index: 10;
+}
+
+.header-nav .navbar-brand {
+  color: #9D2449;
+}
+
+.header-nav .navbar-collapse .navbar-nav .nav-item {
+  position: relative;
+  padding: 0 1rem;
+}
+
+.header-nav .navbar-collapse .navbar-nav .nav-item .separador {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  opacity: 0.3;
+}
+
+.header-nav .navbar-collapse .navbar-nav .nav-item.active .nav-link {
+  color: #B38E5D !important;
+  border-bottom: 1px solid #B38E5D;
+}
+
+.header-nav .navbar-collapse .navbar-nav .nav-item.registro .nav-link {
+  color: #9D2449;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: #FFFFFF;
+  border-top: 1px solid #D4C19C;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer .foot-sec-1 {
+  background-color: #D4C19C;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer .foot-sec-1 .foot-path-1 {
+  position: absolute;
+  top: -31rem;
+  left: -72rem;
+}
+
+.footer .foot-sec-1 .foot-path-2 {
+  position: absolute;
+  top: -18rem;
+  right: -17rem;
+}
+
+.footer .foot-sec-2 {
+  padding: 1rem 0;
+}
+
+.back-fam {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.back-fam > div {
+  position: absolute;
+}
+
+.back-fam .div-fam-1 {
+  top: 7rem;
+  left: -2rem;
+}
+
+.back-fam .div-fam-2 {
+  top: 7rem;
+  left: 11rem;
+}
+
+.back-fam .div-fam-3 {
+  top: 35rem;
+  left: -1rem;
+}
+
+.back-fam .div-fam-4 {
+  top: 45rem;
+  width: 100%;
+  text-align: center;
+}
+
+.back-fam .div-fam-5 {
+  top: 42rem;
+  right: 0;
+}
+
+.back-fam .div-fam-6 {
+  top: 106rem;
+  left: 38rem;
+}
+
+.back-fam .div-fam-7 {
+  top: 107rem;
+  left: 12rem;
+}
+
+.back-fam .div-fam-8 {
+  top: 134rem;
+  right: 34rem;
+}
+
+.back-fam .div-fam-16 {
+  top: 11rem;
+  left: 16rem;
+}
+
+.back-fam .div-fam-17 {
+  top: 36rem;
+  right: 20rem;
+}
+
+.back-fam .div-fam-18 {
+  top: 42rem;
+  left: -3rem;
+}
+
+.back-fam .div-fam-19 {
+  top: 79rem;
+  right: 12rem;
+}
+
+.back-fam .div-fam-20 {
+  top: 88rem;
+  width: 100%;
+  text-align: center;
+}
+
+.back-fam .div-fam-21 {
+  top: 122rem;
+  left: -2rem;
+}
+
+.back-fam .div-fam-22 {
+  top: 142rem;
+  width: 100%;
+  text-align: center;
+}
+
+.back-path {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+.back-path > div {
+  position: absolute;
+}
+
+.back-path .div-path-1 {
+  top: 14rem;
+  left: -26rem;
+}
+
+.back-path .div-path-2 {
+  top: 49rem;
+  left: -21rem;
+}
+
+.back-path .div-path-3 {
+  top: 54rem;
+  right: -41rem;
+}
+
+.back-path .div-path-4 {
+  top: 84rem;
+  left: -31rem;
+}
+
+.back-path .div-path-5 {
+  top: 108rem;
+  left: -55rem;
+}
+
+.back-path .div-path-6 {
+  top: 118rem;
+  right: -22rem;
+}
+
+.back-path .div-path-12 {
+  top: 14rem;
+  left: -52rem;
+}
+
+.back-path .div-path-13 {
+  top: 34rem;
+  right: -32rem;
+}
+
+.back-path .div-path-14 {
+  top: 52rem;
+  left: -40rem;
+}
+
+.back-path .div-path-15 {
+  top: 109rem;
+  left: -16rem;
+}
+
+.back-path .div-path-16 {
+  top: 102rem;
+  right: -40rem;
+}
+
+.back-path .div-path-17 {
+  top: 148rem;
+  left: -22rem;
+}
+
+#sec-1 {
+  padding: 4rem 0 16rem;
+}
+
+#sec-2 {
+  padding: 0 0 21rem;
+}
+
+#sec-3 {
+  padding: 0;
+}
+
+#sec-4 {
+  padding: 6rem 0 10rem;
+}
+
+#sec-4 .btn-block {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#sec-4 .cont-icon {
+  height: 160px;
+}
+
+#sec-5 {
+  padding: 0 0 14rem;
+}
+
+#sec-5 .cont-icon {
+  margin-bottom: 1rem;
+}
+
+#jov-sec-1 {
+  padding: 2rem 0;
+}
+
+#jov-sec-2 {
+  padding: 5rem 0 10rem;
+}
+
+#jov-sec-3 {
+  padding: 14rem 0 12rem;
+}
+
+#jov-sec-4 {
+  padding: 5rem 0 14rem;
+}
+
+#jov-sec-5 {
+  padding: 0 0 12rem;
+}
+
+#jov-sec-6 {
+  padding: 10rem 0 30rem;
+}
+
+#jov-sec-6 .border-hr {
+  position: relative;
+  padding-left: 2rem;
+}
+
+#jov-sec-6 hr {
+  border-color: #B38E5D;
+  border-width: 5px;
+  margin-top: 2rem;
+  /*position: absolute;
+        bottom:0;*/
+}
+
+#jov-sec-6 .border-cafe {
+  border-bottom: 5px solid #D4C19C;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+}
+
+#sec-video {
+  background-color: #000000;
+  height: 34rem;
+  margin-bottom: 4rem;
+}
+
+#sec-ayu-1 {
+  padding: 0 0 2rem;
+}
+
+#sec-ayu-2 {
+  padding: 0 0 2rem;
+}
+
+#accordion-preguntas .card {
+  background-color: #FFFFFF;
+  border-width: 0 0 1px 0;
+}
+
+#accordion-preguntas .card .card-header {
+  background-color: transparent;
+}
+
+#accordion-preguntas .card .card-header h5 button {
+  width: 100%;
+  text-align: left;
+  color: #9D2449;
+  position: relative;
+  white-space: unset;
+}
+
+#accordion-preguntas .card .card-header h5 button svg {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+
+#accordion-preguntas .card .card-header h5 button[aria-expanded="true"] svg {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#accordion-preguntas .card .card-body {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#accordion-preguntas .card .card-body .title-res {
+  color: #9D2449;
+}
+
+#accordion-preguntas .card .card-body a {
+  color: #9D2449;
+}
+
+#accordion-preguntas .h3 {
+  margin-top: 1.6rem;
+}
+
+/*---------------------------\
+    IMAGENES JOVENES
+\****************************/
+.row-jovenes {
+  background: url("../img/jovenes/path12.svg") no-repeat -761px 220px;
+}
+
+.row-capacitacion {
+  background: url("../img/jovenes/path13.svg") no-repeat 1261px -71px, url("../img/jovenes/path14.svg") no-repeat -361px 71px;
+}
+
+.row-uni {
+  background: url("../img/jovenes/path16.svg") no-repeat 1266px 396px, url("../img/jovenes/path15.svg") no-repeat -198px 430px;
+}
+
+.row-uni2 {
+  background: url("../img/jovenes/path17.svg") no-repeat -366px 450px;
+}
+
+.row-uni2 .m-neg {
+  margin-top: -11em;
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 0.7rem;
+  }
+  body {
+    margin-bottom: 3.3rem !important;
+  }
+  br {
+    display: none;
+  }
+  .row-jovenes {
+    background-position: -28rem 36rem !important;
+    background-size: 59rem;
+  }
+  .row-jovenes #jov-sec-2 {
+    padding: 2rem 0 0;
+  }
+  .row-jovenes #jov-sec-2 .img-jov-res {
+    margin-top: 2rem;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+  .row-jovenes #jov-sec-2 .img-jov-res img {
+    height: 50% !important;
+  }
+  .row-capacitacion {
+    padding-bottom: 8rem;
+    background: url("../img/jovenes/path14.svg") no-repeat -160px -28px !important;
+    background-size: 28rem !important;
+  }
+  .row-capacitacion .bloque-texto .t-xl {
+    font-size: 2.4rem;
+  }
+  .row-capacitacion .bloque-texto .h4 {
+    font-size: 1.2rem;
+  }
+  .row-capacitacion .img-cr img {
+    height: 156% !important;
+    position: absolute;
+    top: -6rem;
+  }
+  .row-uni {
+    padding-bottom: 12rem !important;
+    background: url("../img/jovenes/path15.svg") no-repeat 6rem 15rem !important;
+    background-size: 38rem !important;
+  }
+  .row-uni .bloque-texto .t-xl {
+    font-size: 2.4rem;
+  }
+  .row-uni .bloque-texto .h4 {
+    font-size: 1.2rem;
+  }
+  .row-uni .img-uni-res img {
+    position: absolute;
+    top: -8rem;
+    right: 1rem;
+    height: 240% !important;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -webkit-filter: FlipH;
+            filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+  .row-uni2 {
+    text-align: center;
+  }
+  .row-uni2 hr {
+    display: none;
+  }
+  footer .img-res {
+    width: 100%;
+  }
+  footer .foot-path-1 {
+    top: -46rem !important;
+    left: -117rem !important;
+  }
+  footer .foot-path-2 {
+    top: -25rem !important;
+    right: -30rem !important;
+  }
+}
+/*# sourceMappingURL=layout-bienestar.css.map */

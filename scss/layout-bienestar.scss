@@ -1,0 +1,649 @@
+/*-------------------\
+    COLORES
+\********************/
+
+$color-blanco: #ffffff;
+$color-beige: #d4c19c;
+$color-cafe: #b38e5d;
+$color-cHover: #a27d4c;
+$color-grise9: #e9e9e9;
+$color-gris70: #707070;
+$color-gris3: #333333;
+$color-negro: #000000;
+$color-bansefi: #9d2449;
+$color-banHover: #b92a56;
+
+/*-------------------\
+    GENERALES
+\********************/
+body {
+	color: $color-gris3 !important;
+	overflow-x: hidden;
+	background: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(248, 245, 239, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f5ef', GradientType=0 );
+	padding-bottom: 40px;
+}
+
+.row {
+	letter-spacing: 1px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+a {
+	color: $color-bansefi;
+
+	&:hover,
+	&:focus,
+	&:active,
+	&:visited {
+		color: $color-banHover;
+	}
+}
+
+b {
+	font-weight: 600;
+}
+
+.hr-cafe {
+	border-top: 3px solid rgba($color: $color-beige, $alpha: 1);
+	flex: 1 1 100%;
+}
+
+.nav-link {
+	border-bottom: 1px solid transparent;
+	padding-right: 5px;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $color-cafe !important;
+		border-bottom: 1px solid $color-cafe;
+	}
+}
+.flex-1 {
+	flex: 1 1 100%;
+}
+
+.btn {
+	white-space: unset;
+}
+
+.img-cl {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.img-cr {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.card-header {
+	padding: 0.75rem 0.25rem !important;
+
+	.btn {
+		padding: 0.375rem 1.5rem 0.375rem 0.5rem;
+	}
+}
+
+/*-------------------\
+    TITULOS
+\********************/
+
+.t-cafe {
+	color: $color-cafe;
+	font-weight: 300 !important;
+}
+
+.t-negro {
+	color: $color-negro;
+	font-weight: 300 !important;
+}
+
+.t-banco {
+	color: $color-bansefi;
+	font-weight: 300 !important;
+}
+
+.t-xl {
+	font-size: 4rem;
+}
+
+.bg-cafe {
+	background: $color-cafe;
+}
+
+/*-------------------\
+    BOTONES
+\********************/
+
+.btn-lineb {
+	text-align: center;
+	color: $color-bansefi;
+	background-color: $color-blanco;
+	border: 1px solid $color-bansefi;
+	border-radius: 50px;
+	padding: 10px 5px;
+	max-width: 250px;
+
+	&:hover {
+		background-color: $color-banHover;
+		color: $color-blanco;
+	}
+}
+
+.btn-lineApp {
+	text-align: center;
+	color: $color-gris70;
+	background-color: transparent;
+	border: 1px solid $color-bansefi;
+	padding: 15px 5px;
+	text-transform: uppercase;
+
+	&:hover {
+		background-color: $color-banHover;
+		color: $color-blanco;
+	}
+}
+
+.btn-banco {
+	text-align: center;
+	color: $color-blanco;
+	background-color: $color-bansefi;
+	border: 1px solid $color-bansefi;
+	border-radius: 50px;
+	padding: 15px 5px;
+	text-transform: uppercase;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: $color-banHover;
+	}
+}
+
+.btn-cafe {
+	text-align: center;
+	color: $color-blanco !important;
+	background-color: $color-cafe;
+	border: 1px solid $color-cafe;
+	border-radius: 50px;
+	padding: 15px 25px;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: $color-cHover;
+	}
+}
+
+/*---------------------------\
+    Custom ordered list
+\****************************/
+
+.list-group-bene ol {
+	counter-reset: li; /* Initiate a counter */
+	margin-left: 0; /* Remove the default left margin */
+	padding-left: 0; /* Remove the default left padding */
+}
+
+.list-group-bene ol > li {
+	position: relative; /* Create a positioning context */
+	margin: 0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+	padding: 4px 8px; /* Add some spacing around the content */
+	list-style: none; /* Disable the normal item numbering */
+}
+
+.list-group-bene ol > li:before {
+	content: counter(li); /* Use the counter as content */
+	counter-increment: li; /* Increment the counter by 1 */
+	/* Position and style the number */
+	position: absolute;
+	top: -6px;
+	left: -2em;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 2em;
+	/* Some space between the number and the content in browsers that support
+generated content but not positioning it */
+	margin-right: 8px;
+	padding: 4px;
+	color: #b38e5d;
+	font-weight: bold;
+	font-size: 1.8rem;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	text-align: center;
+}
+
+/*---------------------------\
+    IMAGENES ADULTOS MAYORES
+\****************************/
+.fam-svg {
+	height: 90%;
+}
+.row-personas {
+	background: url("../img/adultos-mayores/path7.svg") no-repeat 500px 130px;
+}
+
+.row-pensiones {
+	.card {
+		max-height: 400px;
+		background: url("../img/jovenes/path12.svg") no-repeat -180px 240px,
+			$color-blanco;
+	}
+}
+
+.row-pensiones2 {
+	margin-top: -25%;
+	background: url("../img/adultos-mayores/path9.svg") no-repeat 1256px -152px;
+}
+
+.row-comunidades {
+	background: url("../img/adultos-mayores/path10.svg") no-repeat 950px 0px;
+}
+
+.row-banco {
+	background: url("../img/adultos-mayores/path11.svg") no-repeat -195px 181px;
+}
+
+/*---------------------------\
+    IMAGENES DISCAPACITADOS
+\****************************/
+
+.row-ninos {
+	.card {
+		max-height: 400px;
+		background: url("../img/jovenes/path12.svg") no-repeat -280px 150px,
+			$color-blanco;
+	}
+}
+
+.row-atencion {
+	background: url("../img/discapacitados/path20.svg") no-repeat 1300px 220px,
+		url("../img/discapacitados/path18.svg") no-repeat -1000px -471px;
+}
+
+.row-prioridad {
+	background: url("../img/discapacitados/path21.svg") no-repeat 983px -256px;
+}
+
+/*---------------------------\
+    IMAGENES JOVENES
+\****************************/
+
+.row-jovenes {
+	background: url("../img/jovenes/path12.svg") no-repeat -761px 220px;
+}
+
+.row-capacitacion {
+	background: url("../img/jovenes/path13.svg") no-repeat 1261px -71px,
+		url("../img/jovenes/path14.svg") no-repeat -361px 71px;
+}
+
+.row-uni {
+	background: url("../img/jovenes/path16.svg") no-repeat 1266px 396px,
+		url("../img/jovenes/path15.svg") no-repeat -198px 430px;
+}
+
+.row-uni2 {
+	background: url("../img/jovenes/path17.svg") no-repeat -366px 450px;
+
+	.m-neg {
+		margin-top: -11em;
+	}
+}
+
+/*---------------------------\
+    IMAGENES HOME
+\****************************/
+
+.row-programas {
+	background: url("../img/home/path1.svg") no-repeat -400px 200px;
+}
+
+.row-proyectos {
+	background: url("../img/home/path1.svg") no-repeat -200px 100px;
+}
+
+.row-derechos {
+	background: url("../img/home/path3.svg") no-repeat 1300px 180px;
+}
+
+.row-documentos {
+	background: url("../img/home/path4.svg") no-repeat -378px -123px,
+		url("../img/home/path5.svg") no-repeat -651px 250px,
+		url("../img/home/path6.svg") no-repeat 850px 468px;
+}
+
+@media (max-width: 1440px) {
+	/*---------------------------\
+    IMAGENES DISCAPACITADOS
+\****************************/
+
+	.row-ninos {
+		background-position: -361px -350px;
+	}
+
+	.row-atencion {
+		background-position: 950px 200px, -1100px -470px;
+	}
+
+	.row-prioridad {
+		background-position: 700px -256px;
+	}
+
+	/*---------------------------\
+    IMAGENES ADULTOS MAYORES
+\****************************/
+	.row-personas {
+		background-position: 200px 145px;
+	}
+
+	.row-pensiones {
+		background-position: -1100px -152px;
+	}
+
+	.row-pensiones2 {
+		background-position: 800px -152px;
+	}
+
+	.row-comunidades {
+		background-position: 650px -120px;
+	}
+
+	.row-banco {
+		background-position: -395px 10px;
+	}
+
+	/*---------------------------\
+    IMAGENES HOME
+\****************************/
+
+	.row-programas {
+		background-position: -500px 100px;
+	}
+
+	.row-proyectos {
+		background-position: -200px 120px;
+	}
+
+	.row-derechos {
+		background-position: 390px 90px;
+	}
+
+	.row-documentos {
+		background: url("../img/home/path4.svg") no-repeat -678px -123px,
+			url("../img/home/path5.svg") no-repeat -851px 240px,
+			url("../img/home/path6.svg") no-repeat 481px 450px;
+	}
+
+	/*---------------------------\
+    IMAGENES JOVENES
+\****************************/
+
+	.row-jovenes {
+		background-position: -961px 200px;
+	}
+
+	.row-capacitacion {
+		background: url("../img/jovenes/path13.svg") no-repeat 1061px -21px,
+			url("../img/jovenes/path14.svg") no-repeat -600px 31px;
+	}
+
+	.row-uni {
+		background: url("../img/jovenes/path16.svg") no-repeat 1000px 396px,
+			url("../img/jovenes/path15.svg") no-repeat -350px 430px;
+	}
+
+	.row-uni2 {
+		background-position: -366px 450px;
+	}
+}
+
+@media (max-width: 1024px) {
+	/*---------------------------\
+    IMAGENES DISCAPACITADOS
+\****************************/
+
+	.row-atencion {
+		background-position: 750px 220px, -1200px -470px;
+	}
+
+	.row-prioridad {
+		background-position: 400px -256px;
+	}
+
+	/*---------------------------\
+    IMAGENES ADULTOS MAYORES
+\****************************/
+	.row-personas {
+		background-position: 100px 135px;
+	}
+
+	.row-pensiones2 {
+		background-position: 756px -152px;
+	}
+
+	.row-comunidades {
+		background-position: 614px -100px;
+	}
+
+	.row-banco {
+		background-position: -595px 50px;
+	}
+
+	/*---------------------------\
+    IMAGENES HOME
+\****************************/
+
+	.row-programas {
+		background-position: -650px 20px;
+	}
+
+	.row-proyectos {
+		background-position: -390px 120px;
+	}
+
+	.row-derechos {
+		background-position: 300px 90px;
+	}
+
+	.row-documentos {
+		background-position: -778px -123px, -951px 240px, 481px 480px;
+	}
+}
+
+@media (max-width: 991px) {
+	.row-registro {
+		margin-bottom: 26em;
+	}
+	.row-personas {
+		background-position: 126px 130px;
+	}
+
+	.row-pensiones2 {
+		background-position: 700px -152px;
+	}
+
+	.row-comunidades {
+		background-position: 614px -110px;
+	}
+
+	.row-banco {
+		background-position: -495px -20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.img-cl {
+		justify-content: center;
+	}
+
+	.img-cr {
+		justify-content: center;
+	}
+	.row-pensiones {
+	}
+	.row-pensiones2 {
+		margin-top: 0;
+	}
+
+	.bloque-texto {
+		flex: 1 1 100%;
+	}
+
+	.row-uni2 {
+		.m-neg {
+			margin-top: 2em;
+		}
+	}
+
+	/*---------------------------\
+    IMAGENES DISCAPACITADOS
+\****************************/
+
+	.row-ninos {
+		background-position: -700px -300px;
+	}
+
+	.row-atencion {
+		background-position: 500px 230px, -1200px -530px;
+	}
+
+	.row-prioridad {
+		background-position: 200px -86px;
+	}
+
+	/*---------------------------\
+    IMAGENES ADULTOS MAYORES
+\****************************/
+
+	.row-personas {
+		background-position: 80px 380px;
+	}
+
+	.row-pensiones2 {
+	}
+
+	.row-comunidades {
+		background-position: 100px 400px;
+	}
+
+	.row-banco {
+		background-position: -300px 220px;
+	}
+
+	/*---------------------------\
+    IMAGENES HOME
+\****************************/
+
+	.row-programas {
+		background-position: -650px 80px;
+	}
+
+	.row-proyectos {
+		background-position: -200px 130px;
+	}
+
+	.row-derechos {
+		background-position: 200px 80px;
+	}
+
+	.row-documentos {
+		background-position: -878px -123px, -951px 250px, 421px 500px;
+	}
+}
+
+@media (max-width: 576px) {
+	/*---------------------------\
+    IMAGENES DISCAPACITADOS
+\****************************/
+
+	.row-atencion {
+		background-position: -1220px -530px;
+	}
+
+	.row-prioridad {
+		background-position: 83px -100px;
+	}
+
+	/*---------------------------\
+    IMAGENES JOVENES
+\****************************/
+
+	.row-jovenes {
+		background-position: -761px 220px;
+	}
+
+	.row-capacitacion {
+		background-position: 61px 811px, -361px 31px;
+	}
+
+	.row-uni {
+		background-position: 66px 1067px, -198px 600px;
+	}
+
+	.row-uni2 {
+		background-position: -366px 450px;
+	}
+
+	/*---------------------------\
+    IMAGENES ADULTOS MAYORES
+\****************************/
+	.row-personas {
+		background-position: 50px 130px;
+
+		.img-cl {
+			justify-content: flex-end;
+		}
+
+		.fam-svg {
+			width: 75%;
+			margin-top: -50px;
+		}
+	}
+
+	.row-pensiones {
+		background-position: -1380px -196px;
+	}
+
+	.row-pensiones2 {
+		background-position: 20px 100px;
+	}
+
+	.row-comunidades {
+	}
+
+	.row-banco {
+		background-position: -650px 30px;
+	}
+
+	/*---------------------------\
+    IMAGENES HOME
+\****************************/
+
+	.row-programas {
+		background-position: -700px 50px;
+	}
+
+	.row-proyectos {
+		background-position: -200px 150px;
+	}
+
+	.row-derechos {
+		background-position: 10px 60px;
+	}
+
+	.row-documentos {
+		background-position: -378px -123px, -651px 250px, 82px 1226px;
+	}
+}
+
+//Hoja scss 2
+@import "parte-2.scss";
