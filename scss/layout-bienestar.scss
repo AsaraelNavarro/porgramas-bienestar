@@ -17,13 +17,9 @@ $color-banHover: #b92a56;
     GENERALES
 \********************/
 body {
-	color: $color-gris3 !important;
+	color: $color-gris3;
 	overflow-x: hidden;
-	background: linear-gradient(
-		to bottom,
-		rgba(255, 255, 255, 1) 0%,
-		rgba(248, 245, 239, 1) 100%
-	);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(248, 245, 239, 1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f5ef', GradientType=0 );
 	padding-bottom: 40px;
 }
@@ -41,7 +37,7 @@ a {
 	&:focus,
 	&:active,
 	&:visited {
-		color: $color-banHover;
+		color: $color-blanco;
 	}
 }
 
@@ -61,7 +57,7 @@ b {
 	&:hover,
 	&:active,
 	&:focus {
-		color: $color-cafe !important;
+		color: $color-cafe;
 		border-bottom: 1px solid $color-cafe;
 	}
 }
@@ -84,7 +80,7 @@ b {
 }
 
 .card-header {
-	padding: 0.75rem 0.25rem !important;
+	padding: 0.75rem;
 
 	.btn {
 		padding: 0.375rem 1.5rem 0.375rem 0.5rem;
@@ -97,17 +93,17 @@ b {
 
 .t-cafe {
 	color: $color-cafe;
-	font-weight: 300 !important;
+	font-weight: 300;
 }
 
 .t-negro {
 	color: $color-negro;
-	font-weight: 300 !important;
+	font-weight: 300;
 }
 
 .t-banco {
 	color: $color-bansefi;
-	font-weight: 300 !important;
+	font-weight: 300;
 }
 
 .t-xl {
@@ -128,8 +124,7 @@ b {
 	background-color: $color-blanco;
 	border: 1px solid $color-bansefi;
 	border-radius: 50px;
-	padding: 10px 5px;
-	max-width: 250px;
+	padding: 15px 5px;
 
 	&:hover {
 		background-color: $color-banHover;
@@ -169,7 +164,7 @@ b {
 
 .btn-cafe {
 	text-align: center;
-	color: $color-blanco !important;
+	color: $color-blanco;
 	background-color: $color-cafe;
 	border: 1px solid $color-cafe;
 	border-radius: 50px;
@@ -234,8 +229,7 @@ generated content but not positioning it */
 .row-pensiones {
 	.card {
 		max-height: 400px;
-		background: url("../img/jovenes/path12.svg") no-repeat -180px 240px,
-			$color-blanco;
+		background: url("../img/jovenes/path12.svg") no-repeat -180px 240px, $color-blanco;
 	}
 }
 
@@ -259,14 +253,12 @@ generated content but not positioning it */
 .row-ninos {
 	.card {
 		max-height: 400px;
-		background: url("../img/jovenes/path12.svg") no-repeat -280px 150px,
-			$color-blanco;
+		background: url("../img/jovenes/path12.svg") no-repeat -280px 150px, $color-blanco;
 	}
 }
 
 .row-atencion {
-	background: url("../img/discapacitados/path20.svg") no-repeat 1300px 220px,
-		url("../img/discapacitados/path18.svg") no-repeat -1000px -471px;
+	background: url("../img/discapacitados/path20.svg") no-repeat 1300px 220px, url("../img/discapacitados/path18.svg") no-repeat -1000px -471px;
 }
 
 .row-prioridad {
@@ -282,13 +274,11 @@ generated content but not positioning it */
 }
 
 .row-capacitacion {
-	background: url("../img/jovenes/path13.svg") no-repeat 1261px -71px,
-		url("../img/jovenes/path14.svg") no-repeat -361px 71px;
+	background: url("../img/jovenes/path13.svg") no-repeat 1261px -71px, url("../img/jovenes/path14.svg") no-repeat -361px 71px;
 }
 
 .row-uni {
-	background: url("../img/jovenes/path16.svg") no-repeat 1266px 396px,
-		url("../img/jovenes/path15.svg") no-repeat -198px 430px;
+	background: url("../img/jovenes/path16.svg") no-repeat 1266px 396px, url("../img/jovenes/path15.svg") no-repeat -198px 430px;
 }
 
 .row-uni2 {
@@ -316,9 +306,7 @@ generated content but not positioning it */
 }
 
 .row-documentos {
-	background: url("../img/home/path4.svg") no-repeat -378px -123px,
-		url("../img/home/path5.svg") no-repeat -651px 250px,
-		url("../img/home/path6.svg") no-repeat 850px 468px;
+	background: url("../img/home/path4.svg") no-repeat -378px -123px, url("../img/home/path5.svg") no-repeat -651px 250px, url("../img/home/path6.svg") no-repeat 850px 468px;
 }
 
 @media (max-width: 1440px) {
@@ -378,9 +366,7 @@ generated content but not positioning it */
 	}
 
 	.row-documentos {
-		background: url("../img/home/path4.svg") no-repeat -678px -123px,
-			url("../img/home/path5.svg") no-repeat -851px 240px,
-			url("../img/home/path6.svg") no-repeat 481px 450px;
+		background: url("../img/home/path4.svg") no-repeat -678px -123px, url("../img/home/path5.svg") no-repeat -851px 240px, url("../img/home/path6.svg") no-repeat 481px 450px;
 	}
 
 	/*---------------------------\
@@ -392,13 +378,11 @@ generated content but not positioning it */
 	}
 
 	.row-capacitacion {
-		background: url("../img/jovenes/path13.svg") no-repeat 1061px -21px,
-			url("../img/jovenes/path14.svg") no-repeat -600px 31px;
+		background: url("../img/jovenes/path13.svg") no-repeat 1061px -21px, url("../img/jovenes/path14.svg") no-repeat -600px 31px;
 	}
 
 	.row-uni {
-		background: url("../img/jovenes/path16.svg") no-repeat 1000px 396px,
-			url("../img/jovenes/path15.svg") no-repeat -350px 430px;
+		background: url("../img/jovenes/path16.svg") no-repeat 1000px 396px, url("../img/jovenes/path15.svg") no-repeat -350px 430px;
 	}
 
 	.row-uni2 {

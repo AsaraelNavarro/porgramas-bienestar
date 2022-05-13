@@ -20,20 +20,20 @@ html body {
 }
 
 .link-ban {
-  color: #9D2449;
+  color: #9d2449;
 }
 
 .header-nav {
-  background-color: #FFFFFF !important;
-  border-bottom: 1px solid #DEDEDE;
-  -webkit-box-shadow: 0 1px 2px #DEDEDE;
-          box-shadow: 0 1px 2px #DEDEDE;
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #dedede;
+  -webkit-box-shadow: 0 1px 2px #dedede;
+          box-shadow: 0 1px 2px #dedede;
   position: relative;
   z-index: 10;
 }
 
 .header-nav .navbar-brand {
-  color: #9D2449;
+  color: #9d2449;
 }
 
 .header-nav .navbar-collapse .navbar-nav .nav-item {
@@ -49,18 +49,18 @@ html body {
 }
 
 .header-nav .navbar-collapse .navbar-nav .nav-item.active .nav-link {
-  color: #B38E5D !important;
-  border-bottom: 1px solid #B38E5D;
+  color: #b38e5d !important;
+  border-bottom: 1px solid #b38e5d;
 }
 
 .header-nav .navbar-collapse .navbar-nav .nav-item.registro .nav-link {
-  color: #9D2449;
+  color: #9d2449;
   text-transform: uppercase;
 }
 
 .footer {
-  background-color: #FFFFFF;
-  border-top: 1px solid #D4C19C;
+  background-color: #ffffff;
+  border-top: 1px solid #d4c19c;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -68,7 +68,7 @@ html body {
 }
 
 .footer .foot-sec-1 {
-  background-color: #D4C19C;
+  background-color: #d4c19c;
   position: relative;
   overflow: hidden;
 }
@@ -318,7 +318,7 @@ html body {
 }
 
 #jov-sec-6 hr {
-  border-color: #B38E5D;
+  border-color: #b38e5d;
   border-width: 5px;
   margin-top: 2rem;
   /*position: absolute;
@@ -326,7 +326,7 @@ html body {
 }
 
 #jov-sec-6 .border-cafe {
-  border-bottom: 5px solid #D4C19C;
+  border-bottom: 5px solid #d4c19c;
   padding-bottom: 1rem;
   padding-left: 3rem;
 }
@@ -346,7 +346,7 @@ html body {
 }
 
 #accordion-preguntas .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-width: 0 0 1px 0;
 }
 
@@ -357,7 +357,7 @@ html body {
 #accordion-preguntas .card .card-header h5 button {
   width: 100%;
   text-align: left;
-  color: #9D2449;
+  color: #9d2449;
   position: relative;
   white-space: unset;
 }
@@ -381,15 +381,15 @@ html body {
 }
 
 #accordion-preguntas .card .card-body .title-res {
-  color: #9D2449;
+  color: #9d2449;
 }
 
 #accordion-preguntas .card .card-body a {
-  color: #9D2449;
+  color: #9d2449;
 }
 
 #accordion-preguntas .h3 {
-  margin-top: 1.6rem;
+  margin-top: 3rem;
 }
 
 /*---------------------------\
